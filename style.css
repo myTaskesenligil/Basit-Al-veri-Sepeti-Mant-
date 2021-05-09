@@ -1,0 +1,46 @@
+.wrapper{
+  display: flex;
+}
+.right{
+  border: 1px solid;
+}
+.left{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.right{
+  width: 300px;
+  padding: 0 20px;
+  height: 100%;
+}
+.right h3{
+  text-align: center;
+}
+.right ul li{
+  margin: 10px 0;
+}
+.right .toplam{
+  padding: 30px 0;
+  text-align: center;
+  border-top: 1px solid;
+}
+table{
+  border:1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  width: 500px;
+}
+table thead td{
+  font-weight: bold;
+}
+table td{
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+table input{
+  width: 30px
+}
